@@ -114,7 +114,7 @@ body{
         align-items: center;
         justify-content: space-between;
     }
-    .navbar-responsive a:not(:first-child,#navbar-active,.navbar-icon) {
+    .navbar-responsive a:not(#navbar-active,.navbar-icon) {
         display: none;
     }
     .navbar a.navbar-icon {
