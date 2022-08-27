@@ -408,13 +408,26 @@ body{
     .wide-info{
         align-items:center;
         text-align: center;
-        width:80%;
+        padding:2%;
     }
     .wide-info .content-info{
         padding:0;
     }
     .wide-info.wide-info-split{
         flex-direction: column;
+    }
+    .wide-info .content-info .content-piece{
+        overflow-x: auto;
+    }
+    .wide-info .content-info .content-piece .content-piece-table{
+        font-size: smaller;
+        padding:0;
+        margin:0;
+        width:200%;
+        text-align: center;
+    }
+    .wide-info .content-info .content-piece .content-piece-table td{
+        position:static;
     }
 }
 
