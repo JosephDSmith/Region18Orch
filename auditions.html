@@ -31,13 +31,17 @@
         <h1>Audition Information</h1>
     </div>
 
-    <div class="fixed-nav stick-fixed">
-        <a href="#general-info"><button class="content-button">General Info</button></a>
-        <a href="#payment"><button class="content-button">Payment</button></a>
-        <a href="#middle-school"><button class="content-button">Middle School</button></a>
-        <a href="#high-school"><button class="content-button">High School</button></a>
-        <a href="#wind-percussion"><button class="content-button">Wind and Percussion</button></a>
-        <a href="#home-school"><button class="content-button">Home School Students</button></a>
+    <div id="fixed-navbar" class="fixed-navbar stick-fixed">
+        <a href="#general-info" onclick="closeFixedNavbar()"><button class="content-button">General Info</button></a>
+        <a href="#payment" onclick="closeFixedNavbar()"><button class="content-button">Payment</button></a>
+        <a href="#middle-school" onclick="closeFixedNavbar()"><button class="content-button">Middle School</button></a>
+        <a href="#high-school" onclick="closeFixedNavbar()"><button class="content-button">High School</button></a>
+        <a href="#wind-percussion" onclick="closeFixedNavbar()"><button class="content-button">Wind and Percussion</button></a>
+        <a href="#home-school" onclick="closeFixedNavbar()"><button class="content-button">Home School Students</button></a>
+        <a href="javascript:void(0);" class="content-icon" onclick="collapseFixedNavbar()">
+            <span class="content-up">Menu <i class="fas fa-chevron-up"></i></span>
+            <span class="content-down">Close <i class="fas fa-chevron-down"></i></span>
+        </a>
     </div>
 
     <a id="general-info"></a>
@@ -466,8 +470,7 @@
     </div>
     <div class="spacer"></div>
 
-    
-
     <script type="text/javascript" src="scripts/navbar-compression.js"></script>
+    <script type="text/javascript" src="scripts/fixed-navbar-compression.js"></script>
 </body>
 </html>
