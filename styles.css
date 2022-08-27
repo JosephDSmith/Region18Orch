@@ -192,7 +192,7 @@ body{
         flex-direction:column;
     }
     .fixed-navbar a button{
-        padding:2%;
+        padding:10% 0;
     }
     .fixed-navbar a:not(.content-icon){
         display:none
@@ -203,7 +203,7 @@ body{
     .fixed-navbar .content-icon{
         display: initial;
         text-align: center;
-        padding:1%;
+        padding:4% 0;
     }
     .fixed-navbar.responsive .content-up, .fixed-navbar:not(.responsive) .content-down{
         display:none;
@@ -408,6 +408,7 @@ body{
     .wide-info{
         align-items:center;
         text-align: center;
+        width:80%;
     }
     .wide-info .content-info{
         padding:0;
