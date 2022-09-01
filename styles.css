@@ -349,7 +349,7 @@ body{
     flex-direction: column;
     align-items:flex-start;
     justify-content: space-around;
-    padding:5% 10%;
+    padding:2% 10%;
 }
 .wide-info.wide-info-split{
     display:flex;
@@ -472,5 +472,25 @@ body{
     }
     .calendar-event .content-title, .calendar-event .content-setting, .calendar-event .content-date{
         width:initial;
+    }
+}
+
+.videos-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-video
+{
+    margin:0 3% 2%;
+}
+
+@media screen and (max-width:580px){
+    .content-video{
+        width:100%;
+    }
+    .content-video iframe{
+        width:100%;
     }
 }
