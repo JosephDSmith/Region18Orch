@@ -365,6 +365,7 @@ body{
     }
     .split-div-wide div{
         padding:2%;
+        width: 80%;
     }
     .split-div-wide *{
         text-align:center;
@@ -454,6 +455,9 @@ body{
     }
     .wide-info.wide-info-split{
         flex-direction: column;
+    }
+    .wide-info-split .content-info{
+        width:100%;
     }
     .wide-info .content-info .content-piece{
         overflow-x: auto;
