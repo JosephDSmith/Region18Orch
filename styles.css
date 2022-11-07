@@ -103,8 +103,6 @@ body{
     .navbar-image{
         width:5%;
     }
-}
-@media screen and (max-width: 1150px) {
     .navbar{
         flex-direction: column;
     }
@@ -397,6 +395,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.wide-info-split.content-align-top{
+    align-items: flex-start;
+}
 .wide-info .content-info{
     width:100%;
 }
@@ -535,6 +536,24 @@ body{
         width:100%;
     }
     .content-video iframe{
+        width:100%;
+    }
+}
+
+
+.rosters{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-bottom:10%;
+}
+.rosters .section{
+    text-align: center;
+    width:30%;
+}
+@media screen and (max-width: 600px){
+    .rosters .section{
         width:100%;
     }
 }
