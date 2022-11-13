@@ -544,13 +544,14 @@ body{
 .rosters{
     display:flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap:wrap;
-    margin-bottom:10%;
+    margin-bottom:5%;
 }
 .rosters .section{
     text-align: center;
     width:30%;
+    margin:0 0 5%;
 }
 .rosters-head{
     text-align: center;
@@ -563,7 +564,12 @@ body{
     border:none;
     background-color:gray;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
+    .rosters{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20%;
+    }
     .rosters .section{
         width:100%;
     }
